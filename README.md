@@ -1,6 +1,5 @@
 # Einmaleins
 
-#### Video Demo:  https://youtu.be/VB5PciUeD88
 #### Description:
 This is a simple browser game to learn the multiplication tables, or "Einmaleins" in German, by heart. It works without backend to be able to run it for free on Github pages. It works with buttons instead of keyboard inputs to make it playable on mobile devices. The code and techniques used are inspired by the two turtorials: [Code a 2D Game Using JavaScript, HTML, and CSS (w/ Free Game Assets) – Tutorial](https://www.youtube.com/watch?v=7BHs1BzA4fs) and [https://www.youtube.com/watch?v=8xPsg6yv7TU](https://www.youtube.com/watch?v=8xPsg6yv7TU).
 
