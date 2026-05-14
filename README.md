@@ -1,10 +1,10 @@
 # Einmaleins
 
-[Play](https://einmaleins.pages.dev/)
+## Play game: [https://einmaleins.pages.dev/](https://einmaleins.pages.dev/)
 
 #### Video Demo:  https://youtu.be/VB5PciUeD88
 #### Description:
-This is a simple browser game to learn the multiplication tables, or "Einmaleins" in German, by heart. It works without backend to be able to run it for free on Github pages. It works with buttons instead of keyboard inputs to make it playable on mobile devices. The code and techniques used are inspired by the two turtorials: [Code a 2D Game Using JavaScript, HTML, and CSS (w/ Free Game Assets) – Tutorial](https://www.youtube.com/watch?v=7BHs1BzA4fs) and [https://www.youtube.com/watch?v=8xPsg6yv7TU](https://www.youtube.com/watch?v=8xPsg6yv7TU).
+This is a simple browser game to learn the multiplication tables, or "Einmaleins" in German, by heart. It was created during my civil service to help classes which I was in as a support teacher learn einmaleins in a fun way. It works without backend to be able to run it for free on Github pages. It works with buttons instead of keyboard inputs to make it playable on mobile devices. The code and techniques used are inspired by the two turtorials: [Code a 2D Game Using JavaScript, HTML, and CSS (w/ Free Game Assets) – Tutorial](https://www.youtube.com/watch?v=7BHs1BzA4fs) and [https://www.youtube.com/watch?v=8xPsg6yv7TU](https://www.youtube.com/watch?v=8xPsg6yv7TU).
 
 #### Functionality
 The game is a jumping game where a random multiplication (from the multiplication tables) is shown in a non-editable textfield, and the player has 3 possible answers. Either left, middle or right, which can be selected by the 3 buttons at the bottom of the page. The possible answers are displayed 3 rows of 3 clouds each (with possible answers). If the guess is correct, the player jumps on the correct cloud and gets resetted back in the middle. This reset time ensures that the user cannot select all 3 answers without loosing much time. The clouds below get replaced by one cloud where the player stands and a new row of clouds is shown above the 2 remaining rows. The clouds travel down the canvas at a constant speed. If the user is to slow, and the possible answers go out of the window the game is over and the points are displayed.
